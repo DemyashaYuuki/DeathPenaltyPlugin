@@ -1,0 +1,6 @@
+name: DeathPenaltyPlugin
+version: '1.1.0'
+main: ru.demyasha.deathpenalty.DeathPenaltyPlugin
+api-version: '1.21'
+authors: [Demyasha]
+description: Randomly drops 50% of the whole inventory on death and keeps the rest
