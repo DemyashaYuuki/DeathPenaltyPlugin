@@ -17,33 +17,5 @@ Paper-плагин для Minecraft 1.21.8.
 - Логика применяется ко всему, что попадает в death drops, включая броню, инструменты, оружие, элитры и обычные предметы.
 - Плагин **принудительно использует свою механику** даже если на сервере включён `keepInventory=true`.
 
-## Сборка локально
 
-Нужен Java 21 и Gradle 8.10+.
 
-```bash
-gradle build
-```
-
-Готовый jar будет в:
-
-```bash
-build/libs/DeathPenaltyPlugin-1.1.0.jar
-```
-
-## Сборка через GitHub
-
-В архиве уже есть workflow:
-
-`.github/workflows/build.yml`
-
-Что сделать:
-1. Создай новый репозиторий на GitHub.
-2. Залей туда содержимое этого архива.
-3. Открой вкладку **Actions**.
-4. Запусти workflow **Build Paper Plugin** или просто сделай `git push`.
-5. Готовый `.jar` появится в **Artifacts**.
-
-## Настройка
-
-Все параметры лежат в `src/main/resources/config.yml`.
