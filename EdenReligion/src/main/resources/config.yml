@@ -1,0 +1,35 @@
+menu:
+  title: "На чьей стороне ты?"
+  asuna-name: "&fЯ за Асуну"
+  error-name: "&fЯ за Error'a"
+  neutral-name: "&fЯ против обоих"
+  none-name: "&fЯ не участвую в лоре"
+  permanent-lore:
+    - "&7Этот выбор нельзя сменить."
+  none-lore:
+    - "&7Ты не участвуешь в лоре."
+    - "&7Позже можно ввести &f/religion choose&7,"
+    - "&7чтобы выбрать сторону один раз."
+  filler-enabled: true
+  filler-material: BLACK_STAINED_GLASS_PANE
+messages:
+  selected: "&aТвой выбор сохранён: &f%choice%"
+  neutral-opt-out: "&7Ты отказался от участия в лоре. Позже можно использовать &f/religion choose&7."
+  already-chosen: "&cТы уже сделал необратимый выбор и не можешь сменить сторону."
+  choose-available: "&eОткрыл меню выбора стороны."
+  choose-unavailable: "&cЭта команда доступна только тем, кто выбрал не участвовать в лоре."
+  status: "&7Твой текущий выбор: &f%choice%"
+  player-only: "&cЭту команду может использовать только игрок."
+  no-permission: "&cУ тебя нет прав."
+  reloaded: "&aEdenReligion перезагружен."
+placeholders:
+  asuna: "✦"
+  error: "&k✦&r"
+  against_both: "⚔"
+  none: " "
+heads:
+  asuna-owner: "BladeDemyasha"
+  error-owner: "ErrorNightmare"
+storage-file: "players.yml"
+open-on-first-join-delay-ticks: 20
+reopen-after-close-delay-ticks: 2
