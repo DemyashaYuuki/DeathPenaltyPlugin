@@ -1,0 +1,17 @@
+name: EdenReligion
+version: '1.0.0'
+main: ru.demyasha.edenreligion.EdenReligionPlugin
+api-version: '1.21'
+authors: [Demyasha, OpenAI]
+website: https://edenworld.pro
+description: First-join lore side selection with PlaceholderAPI integration.
+softdepend: [PlaceholderAPI]
+commands:
+  religion:
+    description: Управление выбором стороны в лоре.
+    usage: /religion choose
+    aliases: [faith, side]
+permissions:
+  edenreligion.admin:
+    description: Доступ к административным подкомандам EdenReligion.
+    default: op
