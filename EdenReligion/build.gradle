@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+group = 'ru.demyasha'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'papermc'
+        url = 'https://repo.papermc.io/repository/maven-public/'
+    }
+    maven {
+        name = 'placeholderapi'
+        url = 'https://repo.helpch.at/releases/'
+    }
+}
+
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:1.21.8-R0.1-SNAPSHOT'
+    compileOnly 'me.clip:placeholderapi:2.12.2'
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+
+jar {
+    archiveFileName = 'EdenReligion-1.0.0.jar'
+}
